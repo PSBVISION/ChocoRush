@@ -122,10 +122,10 @@ body::-webkit-scrollbar {
     }
   }
 
-  .flavor-section {
+  .flavour-section {
     @apply min-h-dvh bg-milk;
 
-    .flavor-text-scroll {
+    .flavour-text-scroll {
       @apply rotate-[-3deg] md:translate-y-5 border-[.5vw] border-milk absolute z-10;
     }
 
@@ -140,7 +140,7 @@ body::-webkit-scrollbar {
     .slider-wrapper {
       @apply lg:h-dvh min-h-dvh md:min-h-fit w-full mt-0 md:mt-20 xl:mt-0;
 
-      .flavors {
+      .flavours {
         @apply h-full w-full flex md:flex-row flex-col items-center 2xl:gap-72 lg:gap-52 md:gap-24 gap-7 flex-nowrap;
 
         .drinks {
